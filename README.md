@@ -1,15 +1,21 @@
-# Tic Tac Toe Mini Project
+# Flutter Tic Tac Toe
 
-This project is a simple Tic Tac Toe game implemented in both Python (terminal-based) and Flutter (mobile GUI-based).
+A mobile Tic Tac Toe game built using Flutter.
 
----
+## 📱 Features
 
-## 🔸 Python Version
-- File: `python_version/tic_tac_toe.py`
-- Run in terminal.
-- Players alternate turns to play.
+- Two-player support
+- Winner detection
+- Draw detection
+- Reset game option
 
-### How to Run:
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK: https://flutter.dev/docs/get-started/install
+- Android Studio or VSCode (recommended)
+
+### Run on Emulator/Device
 ```bash
-cd python_version
-python tic_tac_toe.py
+flutter pub get
+flutter run
